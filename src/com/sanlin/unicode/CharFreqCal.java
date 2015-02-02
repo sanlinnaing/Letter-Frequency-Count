@@ -147,7 +147,9 @@ public class CharFreqCal {
 		if (args.length != 2) {
 			System.out.println("Command syntx is -");
 			System.out
-					.println("CharFreqCalculate.jar input_file_name output_file_name");
+					.println("java -jar CharFreqCal.jar input_file_name output_file_name\n" +
+							"input_file_name\t - input text file name including '.txt' extension without 'space'.\n \t \t   eg. 'input.txt'\n" +
+							"out_file_name\t - name of file output without 'space' and '.xls' extension.\n \t \t   eg. 'output_file'");
 			return;
 		}
 
